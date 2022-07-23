@@ -1,0 +1,24 @@
+/* Amatic SC */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+/* Titan One */
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+/* Kanit */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+/* Roleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root
+{
+    --clr-darkgrey: #121729;
+    --clr-redorange: #B32D26;
+    --clr-lightyellow: #F5E9BD;
+    --clr-darkcyan: #529289;
+    --clr-lightcyan: #B6E1DC;
+
+    --clr-bg-nav: var(--clr-lightcyan);
+    --clr-font-nav: var(--clr-redorange);
+    --clr-card-bg: ;
+
+    --font-title: 'Raleway', sans-serif;
+    --font-title-size: 14px;
+}
