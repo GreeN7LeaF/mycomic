@@ -20,5 +20,63 @@
     --clr-card-bg: ;
 
     --font-title: 'Raleway', sans-serif;
+    --font-body: 'Amatic SC', cursive;
     --font-title-size: 14px;
 }
+
+img,
+.picture{
+  max-width: 100%;
+  display: block;
+}
+
+/* #region Fonts */
+body{
+  font-family: var(--font-body);
+}
+
+/* #endregion */
+
+/* #region  Colors*/
+
+.tag .tag-item {
+    background-color: var(--clr-lightyellow);
+    color: var(--clr-redorange);
+  }
+  
+  .card .tag .tag-item {
+    color: white;
+    background-color: var(--clr-redorange);
+  }
+  
+  .card:hover .thumbnail img {
+    -webkit-transform: rotate(5deg) scale(1.1);
+            transform: rotate(5deg) scale(1.1);
+  }
+  
+  .card:hover .tag {
+    color: var(--clr-redorange);
+  }
+  
+  .card:hover .tag .new,
+  .card:hover .tag .hot {
+    background-color: var(--clr-lightyellow);
+    -webkit-box-shadow: 2px 2px 0 var(--clr-redorange);
+            box-shadow: 2px 2px 0 var(--clr-redorange);
+    color: var(--clr-redorange);
+  }
+  
+  .bxh-list .tag-item {
+    background-color: var(--clr-lightyellow);
+    color: var(--clr-redorange);
+  }
+  
+  .slide-show-container button {
+    background-color: white;
+  }
+
+  #footer .sub-menu{
+    color: var(--clr-redorange);
+  }
+
+/* #endregion */

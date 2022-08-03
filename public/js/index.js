@@ -7,7 +7,16 @@ $(".container .list").slick({
     autoplaySpeed: 2000,
     prevArrow: $(".slick-prev"),
     nextArrow: $(".slick-next"),
-    infinite: true
+    infinite: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        } 
+      }
+    ]
 })
 
 $( window ).ready(function() {

@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin">
+    <meta name="referrer" content="origin-when-crossorigin">
+    <meta name="referrer" content="origin-when-cross-origin">
 
     <!--============ Font Awsome Link =============-->
     <link
@@ -21,1250 +24,1586 @@
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
 
-    <link rel="stylesheet" href="./src/src.css" />
-    <link rel="stylesheet" href="./dist/output.css" />
-    <link rel="stylesheet" href="./dist/tailwind.css" />
-    <link rel="stylesheet" href="./public/style/build.css" />
+    <link rel="stylesheet" href="/src/src.css" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="stylesheet" href="/public/style/reponsive.css">
+    <link rel="stylesheet" href="/public/style/color.css" />
+    <link rel="stylesheet" href="/public/style/build.css" />
 
-    <title>sAIGOn cOMIc</title>
+    <title>SAIGON COMIC</title>
   </head>
   <body class="text-xl font-medium font-amatic">
     <div id="header"></div>
-    <div id="main-content" class=" w-screen">
-      <div class="hot-slider bg-darkcyan pt-8 pb-12 page">
-        <div class="slide-show-container">
-          <button class="slick-prev slick-arrow">
-            <i class="fa-solid fa-chevron-left"></i>
-          </button>
-          <div class="container ml-2 mr-2">
-            <div class="list flex">
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
-                </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
+    <div id="main-content" class="w-screen">
+      <div class="hot-slider bg-darkcyan pt-4 pb-12 page">
+        <div class="container">
+          <div class="title py-3 text-3xl  text-lightyellow">
+            <a class="" href="./public/hot-list.html">
+              Truyện mới
+              <span class="tag font-titan text-xl pl-2 cursor-default">
+                <span class="tag-item hot py-1 px-2">HOT</span></span
+              >  
+            </a>
+          </div>
+          <div class="slide-show-container">
+            <button class="slick-prev slick-arrow">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="container ml-2 mr-2">
+              <div class="list flex">
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
                   </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
-                  </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
-                </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
-                  </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
-                  </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
-                </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
                   </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
-                  </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
-                </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
-                  </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
-                  </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
-                </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
                   </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
-                  </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
-                </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
-                  </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
-                  </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
                   </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
-                  </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="card">
-                <div class="thumbnail">
-                  <img src="./public/img/test.jpg" alt="" />
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
+                  </div>
                 </div>
-                <div class="infor">
-                  <div class="tag font-titan">
-                    <div class="tag-item hot">HOT</div>
-                    <div class="tag-item new">NEW</div>
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
                   </div>
-                  <div class="name">
-                    <a href="#"
-                      >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                      thì nó sẽ che rất nhiều</a
-                    >
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
                   </div>
-                  <div class="chapter">
-                    <a href="#" class="chapter">Chap 3</a>
+                </div>
+                <div class="card">
+                  <div class="thumbnail">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div class="infor bg-black">
+                    <div class="tag font-titan">
+                      <div class="tag-item hot">HOT</div>
+                      <div class="tag-item new">NEW</div>
+                    </div>
+                    <div class="name">
+                      <a href="#"
+                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                        nè thì nó sẽ che rất nhiều</a
+                      >
+                    </div>
+                    <div class="chapter rounded-sm">
+                      <a href="#">Chap 3</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <button class="slick-next slick-arrow">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
           </div>
-          <button class="slick-next slick-arrow">
-            <i class="fa-solid fa-chevron-right"></i>
-          </button>
         </div>
       </div>
-      <div id="main-body" class="flex justify-center bg-darkgrey">
-        <div class="list-container bg-lightyellow flex flex-col gap-2">
-          <div class="list ">
-            <div class="list-title bg-redorange text-lightyellow text-xl font-kanit px-4 py-2 ">
-              <a href="#" class="hot">Truyện đang hót hòn họt</a>
-            </div>
-            <div class="main-container">
-              <div class="main-list flex pt-2 px-1 overflow-hidden">
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+      <div id="main-body" class=" bg-darkgrey">
+        <div class="main-container mx-auto
+           grid ">
+          <div class="list-container bg-lightyellow flex flex-col gap-2">
+            <div class="list">
+              <div
+                class="list-title bg-redorange text-lightyellow text-xl font-kanit px-4 py-2"
+              >
+                <a href="#" class="hot">Truyện đang hót hòn họt</a>
+              </div>
+              <div class="main-container">
+                <div class="main-list pr-2 py-2 grid grid-flow-row gap-2 overflow-hidden">
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                  <div class="more-infor absolute">
-                    <div class="name"></div>
-                    <div class="state"></div>
-                    <div class="rate"></div>
-                    <div class="category"></div>
-                    <div class="description"></div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test(2).jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="more-infor absolute">
+                      <div class="name"></div>
+                      <div class="state"></div>
+                      <div class="rate"></div>
+                      <div class="category"></div>
+                      <div class="description"></div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test_2.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black"> 
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#">
-                        Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều
-                      </a>
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#">
+                          Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều
+                        </a>
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img class="h-full" src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="more text-right">
+                <a
+                  href="#"
+                  class="mr-6 px-3 hover:bg-redorange hover:text-lightyellow"
+                >
+                  More <i class="fa-solid fa-angles-right"></i>
+                </a>
+              </div>
             </div>
-            <div class="more text-right">
-              <a href="#" class="mr-6 px-3
-              hover:bg-redorange hover:text-lightyellow">
-                More  <i class="fa-solid fa-angles-right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="list">
-            <div class="list-title bg-redorange text-lightyellow text-xl font-kanit px-4 py-2 ">
-              <a href="#" class="bl">Truyện BL</a>
-            </div>
-            <div class="main-container">
-              <div class="main-list flex pt-2 px-1 overflow-hidden">
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+            <div class="list">
+              <div
+                class="list-title bg-redorange text-lightyellow text-xl font-kanit px-4 py-2"
+              >
+                <a href="#" class="bl">Truyện BL</a>
+              </div>
+              <div class="main-container">
+                <div class="main-list pr-2 py-2 grid grid-flow-row gap-2 overflow-hidden">
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="more text-right">
+                <a
+                  href="#"
+                  class="mr-6 px-3 hover:bg-redorange hover:text-lightyellow"
+                >
+                  More <i class="fa-solid fa-angles-right"></i>
+                </a>
+              </div>
             </div>
-            <div class="more text-right">
-              <a href="#" class="mr-6 px-3
-              hover:bg-redorange hover:text-lightyellow">
-                More  <i class="fa-solid fa-angles-right"></i>
-              </a>
-            </div>
-          </div>
-          <div class="list">
-            <div class="list-title bg-redorange text-lightyellow text-xl font-kanit px-4 py-2 ">
-              <a href="#" class="bl">Truyện BL</a>
-            </div>
-            <div class="main-container">
-              <div class="main-list flex pt-2 px-1 overflow-hidden">
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+            <div class="list">
+              <div
+                class="list-title bg-redorange text-lightyellow text-xl font-kanit px-4 py-2"
+              >
+                <a href="#" class="bl">Truyện BL</a>
+              </div>
+              <div class="main-container">
+                <div class="main-list pr-2 py-2 grid grid-flow-row gap-2 overflow-hidden">
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
-                  </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
-                    </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
-                    </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="thumbnail">
-                    <img src="./public/img/test.jpg" alt="" />
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
                   </div>
-                  <div class="infor">
-                    <div class="tag font-titan">
-                      <div class="tag-item hot">HOT</div>
-                      <div class="tag-item new">NEW</div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
                     </div>
-                    <div class="name">
-                      <a href="#"
-                        >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này nè
-                        thì nó sẽ che rất nhiều</a
-                      >
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
-                    <div class="chapter">
-                      <a href="#" class="chapter">Chap 3</a>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="thumbnail">
+                      <img src="./public/img/test.jpg" alt="" />
+                    </div>
+                    <div class="infor bg-black">
+                      <div class="tag font-titan">
+                        <div class="tag-item hot">HOT</div>
+                        <div class="tag-item new">NEW</div>
+                      </div>
+                      <div class="name">
+                        <a href="#"
+                          >Tựa đề truyện tranh chưa bao giờ là ngắn ví dụ như này
+                          nè thì nó sẽ che rất nhiều</a
+                        >
+                      </div>
+                      <div class="chapter rounded-sm">
+                        <a href="#">Chap 3</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="more text-right">
-              <a href="#" class="mr-6 px-3
-              hover:bg-redorange hover:text-lightyellow">
-                More  <i class="fa-solid fa-angles-right"></i>
-              </a>
+              <div class="more text-right">
+                <a
+                  href="#"
+                  class="mr-6 px-3 hover:bg-redorange hover:text-lightyellow"
+                >
+                  More <i class="fa-solid fa-angles-right"></i>
+                </a>
+              </div>
             </div>
           </div>
+          <div id="sub-infor" class="bg-darkcyan flex flex-col">
+            <div class="donate-container">
+              <div
+                class="title text-darkcyan font-bold bg-lightyellow text-3xl py-3 px-4"
+              >
+                Donate
+              </div>
+              <div class="table">
+                <img class="" src="./public/img/comic-banner.png" alt="" />
+                <div
+                  class="donate-list flex flex-col gap-3 px-1 max-h-80 overflow-scroll"
+                >
+                  <a href="#" class="member-donate flex mx-2">
+                    <img
+                      class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1"
+                      src="./public/img/avar.png"
+                      alt=""
+                    />
+                    <div
+                      class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3 flex flex-col gap-2 justify-between"
+                    >
+                      <div class="head-content flex flex-row">
+                        <div class="date-name">
+                          <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
+                            21/7/2022
+                          </span>
+                          <span
+                            class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1"
+                            >Thảo My nè</span
+                          >
+                        </div>
+                        <div class="donate-amount text-2xl ml-auto">
+                          1.000.000.000.000
+                          <span class="unit">đ</span>
+                        </div>
+                      </div>
+                      <div class="break-words">
+                        Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="member-donate flex mx-2">
+                    <img
+                      class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1"
+                      src="./public/img/avar.png"
+                      alt=""
+                    />
+                    <div
+                      class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3 flex flex-col gap-2 justify-between"
+                    >
+                      <div class="head-content flex flex-row">
+                        <div class="date-name">
+                          <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
+                            21/7/2022
+                          </span>
+                          <span
+                            class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1"
+                            >Thảo My nè</span
+                          >
+                        </div>
+                        <div class="donate-amount text-2xl ml-auto">
+                          1.000.000.000.000
+                          <span class="unit">đ</span>
+                        </div>
+                      </div>
+                      <div class="break-words">
+                        Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="member-donate flex mx-2">
+                    <img
+                      class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1"
+                      src="./public/img/avar.png"
+                      alt=""
+                    />
+                    <div
+                      class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3 flex flex-col gap-2 justify-between"
+                    >
+                      <div class="head-content flex flex-row">
+                        <div class="date-name">
+                          <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
+                            21/7/2022
+                          </span>
+                          <span
+                            class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1"
+                            >Thảo My nè</span
+                          >
+                        </div>
+                        <div class="donate-amount text-2xl ml-auto">
+                          1.000.000.000.000
+                          <span class="unit">đ</span>
+                        </div>
+                      </div>
+                      <div class="break-words">
+                        Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="member-donate flex mx-2">
+                    <img
+                      class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1"
+                      src="./public/img/avar.png"
+                      alt=""
+                    />
+                    <div
+                      class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3 flex flex-col gap-2 justify-between"
+                    >
+                      <div class="head-content flex flex-row">
+                        <div class="date-name">
+                          <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
+                            21/7/2022
+                          </span>
+                          <span
+                            class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1"
+                            >Thảo My nè</span
+                          >
+                        </div>
+                        <div class="donate-amount text-2xl ml-auto">
+                          1.000.000.000.000
+                          <span class="unit">đ</span>
+                        </div>
+                      </div>
+                      <div class="break-words">
+                        Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="member-donate flex mx-2">
+                    <img
+                      class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1"
+                      src="./public/img/avar.png"
+                      alt=""
+                    />
+                    <div
+                      class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3 flex flex-col gap-2 justify-between"
+                    >
+                      <div class="head-content flex flex-row">
+                        <div class="date-name">
+                          <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
+                            21/7/2022
+                          </span>
+                          <span
+                            class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1"
+                            >Thảo My nè</span
+                          >
+                        </div>
+                        <div class="donate-amount text-2xl ml-auto">
+                          1.000.000.000.000
+                          <span class="unit">đ</span>
+                        </div>
+                      </div>
+                      <div class="break-words">
+                        Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="member-donate flex mx-2">
+                    <img
+                      class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1"
+                      src="./public/img/avar.png"
+                      alt=""
+                    />
+                    <div
+                      class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3 flex flex-col gap-2 justify-between"
+                    >
+                      <div class="head-content flex flex-row">
+                        <div class="date-name">
+                          <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
+                            21/7/2022
+                          </span>
+                          <span
+                            class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1"
+                            >Thảo My nè</span
+                          >
+                        </div>
+                        <div class="donate-amount text-2xl ml-auto">
+                          1.000.000.000.000
+                          <span class="unit">đ</span>
+                        </div>
+                      </div>
+                      <div class="break-words">
+                        Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="donate-btn relative">
+                  <a
+                    href="#"
+                    class="donate-link bg-darkgrey text-lightcyan px-5 py-3 inline-block hover:bg-lightcyan hover:text-redorange"
+                  >
+                    Donate Us Now!!
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="bxh-container">
+              <div
+                class="title text-darkcyan font-bold bg-lightyellow text-3xl py-3 px-4"
+              >
+                Bảng Xếp Hạng
+              </div>
+              <div class="bxh-list overflow-hidden">
+                <a
+                  href="#"
+                  class="bxh-card flex bg-redorange font-raleway duration-200 items-center hover:bg-light_redorange hover:text-bxh_card_text"
+                >
+                  <div class="thumbnail w-28 border-2 border-lightyellow">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div
+                    class="infor-container mx-3 my-2 text-lightyellow text-sm flex flex-col gap-1 font-bold"
+                  >
+                    <div class="name">
+                      Tên truyện:
+                      <span class="content font-normal">
+                        Lorem ipsum dolor, sit ai dont knowmet consectetue </span
+                      ><br />
+                    </div>
+                    <div class="category overflow-hidden">
+                      Thể loại:
+                      <span
+                        class="content tag font-normal flex flex-row gap-1 capitalize"
+                      >
+                        <div class="tag-item font-bold py-1 px-2 mt-1">
+                          Comedy
+                        </div>
+                        <div class="tag-item font-bold py-1 px-2 mt-1">Drama</div>
+                        <div class="tag-item font-bold py-1 px-2 mt-1">Smut</div>
+                        <div class="tag-item font-bold py-1 px-2 mt-1">Smut</div>
+                        <div class="tag-item font-bold py-1 px-2 mt-1">Smut</div>
+                        <div class="tag-item font-bold py-1 px-2 mt-1">Smut</div>
+                        <div class="tag-item font-bold py-1 px-2 mt-1">Smut</div>
+                      </span>
+                    </div>
+                    <div class="rate">
+                      Đánh giá:
+                      <span class="content font-normal">chưa nghĩ ra</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="bxh-card flex bg-redorange font-raleway duration-200 items-center hover:bg-light_redorange hover:text-bxh_card_text"
+                >
+                  <div class="thumbnail w-28 border-2 border-lightyellow">
+                    <img src="./public/img/test_2.jpg" alt="" />
+                  </div>
+                  <div
+                    class="infor-container mx-3 my-2 text-lightyellow text-sm flex flex-col gap-1 font-bold"
+                  >
+                    <div class="name">
+                      Tên truyện:
+                      <span class="content font-normal">
+                        Lorem ipsum dolor, sit ai dont knowmet consectetue </span
+                      ><br />
+                    </div>
+                    <div class="category overflow-hidden">
+                      Thể loại:
+                      <span
+                        class="content tag font-normal flex flex-row gap-1 capitalize"
+                      >
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Comedy
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Drama
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                      </span>
+                    </div>
+                    <div class="rate">
+                      Đánh giá:
+                      <span class="content font-normal">chưa nghĩ ra</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="bxh-card flex bg-redorange font-raleway duration-200 items-center hover:bg-light_redorange hover:text-bxh_card_text"
+                >
+                  <div class="thumbnail w-28 border-2 border-lightyellow">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div
+                    class="infor-container mx-3 my-2 text-lightyellow text-sm flex flex-col gap-1 font-bold"
+                  >
+                    <div class="name">
+                      Tên truyện:
+                      <span class="content font-normal">
+                        Lorem ipsum dolor, sit ai dont knowmet consectetue </span
+                      ><br />
+                    </div>
+                    <div class="category overflow-hidden">
+                      Thể loại:
+                      <span
+                        class="content tag font-normal flex flex-row gap-1 capitalize"
+                      >
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Comedy
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Drama
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                      </span>
+                    </div>
+                    <div class="rate">
+                      Đánh giá:
+                      <span class="content font-normal">chưa nghĩ ra</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="bxh-card flex bg-redorange font-raleway duration-200 items-center hover:bg-light_redorange hover:text-bxh_card_text"
+                >
+                  <div class="thumbnail w-28 border-2 border-lightyellow">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div
+                    class="infor-container mx-3 my-2 text-lightyellow text-sm flex flex-col gap-1 font-bold"
+                  >
+                    <div class="name">
+                      Tên truyện:
+                      <span class="content font-normal">
+                        Lorem ipsum dolor, sit ai dont knowmet consectetue </span
+                      ><br />
+                    </div>
+                    <div class="category overflow-hidden">
+                      Thể loại:
+                      <span
+                        class="content tag font-normal flex flex-row gap-1 capitalize"
+                      >
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Comedy
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Drama
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                      </span>
+                    </div>
+                    <div class="rate">
+                      Đánh giá:
+                      <span class="content font-normal">chưa nghĩ ra</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="bxh-card flex bg-redorange font-raleway duration-200 items-center hover:bg-light_redorange hover:text-bxh_card_text"
+                >
+                  <div class="thumbnail w-28 border-2 border-lightyellow">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div
+                    class="infor-container mx-3 my-2 text-lightyellow text-sm flex flex-col gap-1 font-bold"
+                  >
+                    <div class="name">
+                      Tên truyện:
+                      <span class="content font-normal">
+                        Lorem ipsum dolor, sit ai dont knowmet consectetue </span
+                      ><br />
+                    </div>
+                    <div class="category overflow-hidden">
+                      Thể loại:
+                      <span
+                        class="content tag font-normal flex flex-row gap-1 capitalize"
+                      >
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Comedy
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Drama
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                      </span>
+                    </div>
+                    <div class="rate">
+                      Đánh giá:
+                      <span class="content font-normal">chưa nghĩ ra</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="bxh-card flex bg-redorange font-raleway duration-200 items-center hover:bg-light_redorange hover:text-bxh_card_text"
+                >
+                  <div class="thumbnail w-28 border-2 border-lightyellow">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div
+                    class="infor-container mx-3 my-2 text-lightyellow text-sm flex flex-col gap-1 font-bold"
+                  >
+                    <div class="name">
+                      Tên truyện:
+                      <span class="content font-normal">
+                        Lorem ipsum dolor, sit ai dont knowmet consectetue </span
+                      ><br />
+                    </div>
+                    <div class="category overflow-hidden">
+                      Thể loại:
+                      <span
+                        class="content tag font-normal flex flex-row gap-1 capitalize"
+                      >
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Comedy
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Drama
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                      </span>
+                    </div>
+                    <div class="rate">
+                      Đánh giá:
+                      <span class="content font-normal">chưa nghĩ ra</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="bxh-card flex bg-redorange font-raleway duration-200 items-center hover:bg-light_redorange hover:text-bxh_card_text"
+                >
+                  <div class="thumbnail w-28 border-2 border-lightyellow">
+                    <img src="./public/img/test.jpg" alt="" />
+                  </div>
+                  <div
+                    class="infor-container mx-3 my-2 text-lightyellow text-sm flex flex-col gap-1 font-bold"
+                  >
+                    <div class="name">
+                      Tên truyện:
+                      <span class="content font-normal">
+                        Lorem ipsum dolor, sit ai dont knowmet consectetue </span
+                      ><br />
+                    </div>
+                    <div class="category overflow-hidden">
+                      Thể loại:
+                      <span
+                        class="content tag font-normal flex flex-row gap-1 capitalize"
+                      >
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Comedy
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Drama
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                        <div
+                          class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1"
+                        >
+                          Smut
+                        </div>
+                      </span>
+                    </div>
+                    <div class="rate">
+                      Đánh giá:
+                      <span class="content font-normal">chưa nghĩ ra</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="more text-right">
+                <a
+                  href="#"
+                  class="mr-6 px-3 hover:bg-redorange hover:text-lightyellow"
+                >
+                  More <i class="fa-solid fa-angles-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="facebook-link max-h-96 overflow-hidden"
+            >
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJust-Love-102407358354454&tabs=timeline&width=400&height=450&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"
+                width="400"
+                height="500"
+                style="border: none; overflow: hidden"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                class="mx-auto my-5"
+                ></iframe>
+            </div>
         </div>
-        <div class="sub-infor bg-darkcyan flex flex-col">
-          <div class="donate-container">
-            <div class="title text-darkcyan font-bold bg-lightyellow text-3xl py-3 px-4">
-              Donate
-            </div>
-            <div class="table">
-              <img class="" src="./public/img/comic-banner.png" alt="">
-              <div class="donate-list flex flex-col gap-3 px-1 max-h-80 overflow-scroll">
-                <a href="#" class="member-donate flex mx-2">
-                  <img class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1" src="./public/img/avar.png" alt="">
-                  <div class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3
-                  flex flex-col gap-2 justify-between">
-                  <div class="head-content flex flex-row ">
-                    <div class="date-name">
-                      <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
-                        21/7/2022
-                      </span>
-                      <span class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1">Thảo My nè</span>
-                    </div>
-                    <div class="donate-amount text-2xl
-                     ml-auto">
-                      1.000.000.000.000
-                      <span class="unit">đ</span>
-                    </div>
-                  </div>
-                    <div class="break-words">Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))</div>
-                  </div>
-                </a>
-                <a href="#" class="member-donate flex mx-2">
-                  <img class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1" src="./public/img/avar.png" alt="">
-                  <div class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3
-                  flex flex-col gap-2 justify-between">
-                  <div class="head-content flex flex-row ">
-                    <div class="date-name">
-                      <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
-                        21/7/2022
-                      </span>
-                      <span class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1">Thảo My nè</span>
-                    </div>
-                    <div class="donate-amount text-2xl
-                     ml-auto">
-                      1.000.000.000.000
-                      <span class="unit">đ</span>
-                    </div>
-                  </div>
-                    <div class="break-words">Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))</div>
-                  </div>
-                </a>
-                <a href="#" class="member-donate flex mx-2">
-                  <img class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1" src="./public/img/avar.png" alt="">
-                  <div class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3
-                  flex flex-col gap-2 justify-between">
-                  <div class="head-content flex flex-row ">
-                    <div class="date-name">
-                      <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
-                        21/7/2022
-                      </span>
-                      <span class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1">Thảo My nè</span>
-                    </div>
-                    <div class="donate-amount text-2xl
-                     ml-auto">
-                      1.000.000.000.000
-                      <span class="unit">đ</span>
-                    </div>
-                  </div>
-                    <div class="break-words">Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))</div>
-                  </div>
-                </a>
-                <a href="#" class="member-donate flex mx-2">
-                  <img class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1" src="./public/img/avar.png" alt="">
-                  <div class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3
-                  flex flex-col gap-2 justify-between">
-                  <div class="head-content flex flex-row ">
-                    <div class="date-name">
-                      <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
-                        21/7/2022
-                      </span>
-                      <span class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1">Thảo My nè</span>
-                    </div>
-                    <div class="donate-amount text-2xl
-                     ml-auto">
-                      1.000.000.000.000
-                      <span class="unit">đ</span>
-                    </div>
-                  </div>
-                    <div class="break-words">Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))</div>
-                  </div>
-                </a>
-                <a href="#" class="member-donate flex mx-2">
-                  <img class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1" src="./public/img/avar.png" alt="">
-                  <div class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3
-                  flex flex-col gap-2 justify-between">
-                  <div class="head-content flex flex-row ">
-                    <div class="date-name">
-                      <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
-                        21/7/2022
-                      </span>
-                      <span class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1">Thảo My nè</span>
-                    </div>
-                    <div class="donate-amount text-2xl
-                     ml-auto">
-                      1.000.000.000.000
-                      <span class="unit">đ</span>
-                    </div>
-                  </div>
-                    <div class="break-words">Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))</div>
-                  </div>
-                </a>
-                <a href="#" class="member-donate flex mx-2">
-                  <img class="h-14 w-14 bg-lightyellow border-2 border-redorange rounded-2xl p-1" src="./public/img/avar.png" alt="">
-                  <div class="donate-content bg-white flex-grow ml-2 mt-1 rounded-r-xl rounded-bl-xl py-2 px-3
-                  flex flex-col gap-2 justify-between">
-                  <div class="head-content flex flex-row ">
-                    <div class="date-name">
-                      <span class="date text-sm bg-yellow-400 mr-2 px-1 py-1">
-                        21/7/2022
-                      </span>
-                      <span class="name text-sm font-kanit bg-redorange text-lightyellow px-1 py-1">Thảo My nè</span>
-                    </div>
-                    <div class="donate-amount text-2xl
-                     ml-auto">
-                      1.000.000.000.000
-                      <span class="unit">đ</span>
-                    </div>
-                  </div>
-                    <div class="break-words">Đại gia ủng hộ :))))))))))))))))))))))))))))))))))))))))</div>
-                  </div>
-                </a>
-              </div>
-              <div class="donate-btn relative ">
-                <a href="#" class="donate-link bg-darkgrey text-lightcyan px-5 py-3 inline-block
-                hover:bg-lightcyan hover:text-redorange
-                ">
-                  Donate Us Now!!
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="bxh-container ">
-            <div class="title text-darkcyan font-bold bg-lightyellow text-3xl py-3 px-4">
-              Bảng Xếp Hạng
-            </div>
-            <div class="bxh-list overflow-hidden">
-              <a href="#" class="bxh-card flex bg-redorange font-raleway duration-200 items-center
-              hover:bg-light_redorange hover:text-bxh_card_text">
-                <div class="thumbnail w-28 border-2 border-lightyellow">
-                  <img src="./public/img/test.jpg" alt="">
-                </div>
-                <div class="infor-container mx-3 my-2 text-lightyellow text-sm
-                flex flex-col gap-1 font-bold ">
-                  <div class="name ">
-                    Tên truyện: <span class="content font-normal"> Lorem ipsum dolor, sit ai dont knowmet consectetue </span><br>
-                  </div>
-                  <div class="category overflow-hidden">
-                    Thể loại: <span class="content tag font-normal flex flex-row gap-1 capitalize">
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Comedy</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Drama</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-
-                    </span>
-                  </div>
-                  <div class="rate ">
-                    Đánh giá: <span class="content font-normal">chưa nghĩ ra</span>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="bxh-card flex bg-redorange font-raleway duration-200 items-center
-              hover:bg-light_redorange hover:text-bxh_card_text">
-                <div class="thumbnail w-28 border-2 border-lightyellow">
-                  <img src="./public/img/test(2).jpg" alt="">
-                </div>
-                <div class="infor-container mx-3 my-2 text-lightyellow text-sm
-                flex flex-col gap-1 font-bold ">
-                  <div class="name ">
-                    Tên truyện: <span class="content font-normal"> Lorem ipsum dolor, sit ai dont knowmet consectetue </span><br>
-                  </div>
-                  <div class="category overflow-hidden">
-                    Thể loại: <span class="content tag font-normal flex flex-row gap-1 capitalize">
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Comedy</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Drama</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-
-                    </span>
-                  </div>
-                  <div class="rate ">
-                    Đánh giá: <span class="content font-normal">chưa nghĩ ra</span>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="bxh-card flex bg-redorange font-raleway duration-200 items-center
-              hover:bg-light_redorange hover:text-bxh_card_text">
-                <div class="thumbnail w-28 border-2 border-lightyellow">
-                  <img src="./public/img/test.jpg" alt="">
-                </div>
-                <div class="infor-container mx-3 my-2 text-lightyellow text-sm
-                flex flex-col gap-1 font-bold ">
-                  <div class="name ">
-                    Tên truyện: <span class="content font-normal"> Lorem ipsum dolor, sit ai dont knowmet consectetue </span><br>
-                  </div>
-                  <div class="category overflow-hidden">
-                    Thể loại: <span class="content tag font-normal flex flex-row gap-1 capitalize">
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Comedy</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Drama</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-
-                    </span>
-                  </div>
-                  <div class="rate ">
-                    Đánh giá: <span class="content font-normal">chưa nghĩ ra</span>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="bxh-card flex bg-redorange font-raleway duration-200 items-center
-              hover:bg-light_redorange hover:text-bxh_card_text">
-                <div class="thumbnail w-28 border-2 border-lightyellow">
-                  <img src="./public/img/test.jpg" alt="">
-                </div>
-                <div class="infor-container mx-3 my-2 text-lightyellow text-sm
-                flex flex-col gap-1 font-bold ">
-                  <div class="name ">
-                    Tên truyện: <span class="content font-normal"> Lorem ipsum dolor, sit ai dont knowmet consectetue </span><br>
-                  </div>
-                  <div class="category overflow-hidden">
-                    Thể loại: <span class="content tag font-normal flex flex-row gap-1 capitalize">
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Comedy</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Drama</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-
-                    </span>
-                  </div>
-                  <div class="rate ">
-                    Đánh giá: <span class="content font-normal">chưa nghĩ ra</span>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="bxh-card flex bg-redorange font-raleway duration-200 items-center
-              hover:bg-light_redorange hover:text-bxh_card_text">
-                <div class="thumbnail w-28 border-2 border-lightyellow">
-                  <img src="./public/img/test.jpg" alt="">
-                </div>
-                <div class="infor-container mx-3 my-2 text-lightyellow text-sm
-                flex flex-col gap-1 font-bold ">
-                  <div class="name ">
-                    Tên truyện: <span class="content font-normal"> Lorem ipsum dolor, sit ai dont knowmet consectetue </span><br>
-                  </div>
-                  <div class="category overflow-hidden">
-                    Thể loại: <span class="content tag font-normal flex flex-row gap-1 capitalize">
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Comedy</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Drama</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-
-                    </span>
-                  </div>
-                  <div class="rate ">
-                    Đánh giá: <span class="content font-normal">chưa nghĩ ra</span>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="bxh-card flex bg-redorange font-raleway duration-200 items-center
-              hover:bg-light_redorange hover:text-bxh_card_text">
-                <div class="thumbnail w-28 border-2 border-lightyellow">
-                  <img src="./public/img/test.jpg" alt="">
-                </div>
-                <div class="infor-container mx-3 my-2 text-lightyellow text-sm
-                flex flex-col gap-1 font-bold ">
-                  <div class="name ">
-                    Tên truyện: <span class="content font-normal"> Lorem ipsum dolor, sit ai dont knowmet consectetue </span><br>
-                  </div>
-                  <div class="category overflow-hidden">
-                    Thể loại: <span class="content tag font-normal flex flex-row gap-1 capitalize">
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Comedy</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Drama</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-
-                    </span>
-                  </div>
-                  <div class="rate ">
-                    Đánh giá: <span class="content font-normal">chưa nghĩ ra</span>
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="bxh-card flex bg-redorange font-raleway duration-200 items-center
-              hover:bg-light_redorange hover:text-bxh_card_text">
-                <div class="thumbnail w-28 border-2 border-lightyellow">
-                  <img src="./public/img/test.jpg" alt="">
-                </div>
-                <div class="infor-container mx-3 my-2 text-lightyellow text-sm
-                flex flex-col gap-1 font-bold ">
-                  <div class="name ">
-                    Tên truyện: <span class="content font-normal"> Lorem ipsum dolor, sit ai dont knowmet consectetue </span><br>
-                  </div>
-                  <div class="category overflow-hidden">
-                    Thể loại: <span class="content tag font-normal flex flex-row gap-1 capitalize">
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Comedy</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Drama</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-                      <div class="tag-item bg-lightyellow text-redorange font-bold py-1 px-2 mt-1">Smut</div>
-
-                    </span>
-                  </div>
-                  <div class="rate ">
-                    Đánh giá: <span class="content font-normal">chưa nghĩ ra</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="more text-right">
-              <a href="#" class="mr-6 px-3
-              hover:bg-redorange hover:text-lightyellow">
-                More  <i class="fa-solid fa-angles-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+      </div>
       </div>
     </div>
-      
-    <div id="footer" class=" text-gableGreen bg-lightcyan"></div>
+    <div id="footer" class="text-gableGreen bg-lightyellow"></div>
 
     <!--============ Jquery Link ============= -->
     <script

@@ -4,7 +4,8 @@
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "vite",
-    "build-css": "tailwindcss-cli build -i src/input.css -o dist/output.css --watch"
+    "build-css": "tailwindcss-cli build -i src/input.css -o dist/output.css --watch",
+    "scss": "sass public/style/build.scss public/style/build.css -w"
   },
   "author": "",
   "license": "ISC",
